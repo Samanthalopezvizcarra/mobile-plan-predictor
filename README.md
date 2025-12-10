@@ -66,7 +66,9 @@ Los modelos quedaron ordenados así (de mayor a menor precisión):
 ---
 
 ## 🧪 Prueba en el conjunto de test
-El modelo seleccionado se probó en datos nunca antes vistos, confirmando su capacidad de generalización.
+El mejor modelo (Random Forest con `max_depth=4` y `n_estimators=10`) fue evaluado en el conjunto de prueba.
+
+**🎯 Precisión (accuracy) en test:** **0.8180**
 
 ---
 
